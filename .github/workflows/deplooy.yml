@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  ACR_NAME: mydevopsacr123.azurecr.io
+  ACR_NAME: mysharchanaacr123.azurecr.io
   IMAGE_NAME: my-devops-app
   AKS_CLUSTER: devops-aks
   RESOURCE_GROUP: devops-rg
