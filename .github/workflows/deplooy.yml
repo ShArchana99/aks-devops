@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+permissions:
+   id-token: write
+   content: read
 env:
   ACR_NAME: mysharchanaacr123.azurecr.io
   IMAGE_NAME: my-devops-app
