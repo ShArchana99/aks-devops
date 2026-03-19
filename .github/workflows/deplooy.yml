@@ -33,7 +33,7 @@ jobs:
         subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
 
     - name: Login to ACR
-      run: az acr login --name mysharchanaacr123   ← fixed
+      run: az acr login --name mysharchanaacr123   
 
     - name: Build Docker image
       run: |
