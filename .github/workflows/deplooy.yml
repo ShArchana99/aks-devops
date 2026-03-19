@@ -67,6 +67,6 @@ jobs:
 
     - name: Deploy to AKS
       run: |
-        kubectl apply -f k8S/
+        kubectl apply -f K8S/
         kubectl set image deployment/my-devops-app \
           my-devops-app=${{ env.ACR_NAME }}/${{ env.IMAGE_NAME }}:${{ github.run_number }}
